@@ -4,5 +4,5 @@ Este projeto contém dois microserviços independentes que se comunicam via **me
 
 ## 🧱 Arquitetura
 
-- `accountms`: Microserviço responsável por gerenciar contas de usuários e **enviar mensagens** para a fila `created-customer` via RabbitMQ.
-- `notificationms`: Microserviço responsável por **receber mensagens** da fila `created-customer`, armazenar notificações no banco de dados e simular o envio de e-mails.
+- `accountms`: Microserviço (desenvolvido em spring) responsável por gerenciar contas de usuários e **enviar mensagens** para a fila `created-customer` via RabbitMQ.
+- `notificationms`: Microserviço (desenvolvido em django) responsável por **receber mensagens** da fila `created-customer`, armazenar notificações no banco de dados e simular o envio de e-mails.
