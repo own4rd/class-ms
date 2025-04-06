@@ -1,0 +1,72 @@
+# ==========================
+# Python / Django
+# ==========================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.migrations/
+*.db
+*.env
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+celerybeat-schedule
+instance/
+
+# VSCode
+.vscode/
+
+# Django static files
+/staticfiles/
+/media/
+
+# ==========================
+# Java / Spring Boot
+# ==========================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# ==========================
+# General
+# ==========================
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.orig
+*.sqlite3
